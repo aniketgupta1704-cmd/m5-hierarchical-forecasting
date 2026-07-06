@@ -1,0 +1,30 @@
+# Data — do NOT commit raw M5 files or large processed artifacts
+data/raw/
+data/processed/*.parquet
+data/processed/_*.parquet
+
+# but DO keep the small app data files (needed for deploy)
+!app/data/*.parquet
+!app/data/*.csv
+
+# Models — large binaries, keep out of git
+models/*.pkl
+models/*.pt
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+m5-deep/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml

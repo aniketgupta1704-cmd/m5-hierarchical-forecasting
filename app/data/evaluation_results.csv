@@ -1,0 +1,8 @@
+level,model,metric,value
+leaf (all),LightGBM,WRMSSE,0.8603
+leaf (1500),LightGBM,WRMSSE,0.8414
+leaf (1500),Deep N-BEATS,WRMSSE,0.8756
+store×cat,Prophet,RMSE,209.78
+store×cat,LightGBM sum,RMSE,499.83
+store×cat,MinT reconciled,RMSE,209.8
+backtest,LightGBM (2k),WRMSSE_mean,0.8434
