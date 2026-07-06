@@ -5,7 +5,7 @@ on the [M5 Walmart dataset](https://www.kaggle.com/competitions/m5-forecasting-a
 — from raw sales to inventory decisions. 30,490 series across 3 states, 10 stores,
 and 3,049 items.
 
-**[▶ Live dashboard](YOUR_STREAMLIT_URL_HERE)**  ·  4 interactive pages
+**[▶ Live dashboard](https://m5-hierarchical-forecasting-xrq8pchrwwfkhdc4vzr3ed.streamlit.app/)**  ·  4 interactive pages
 
 ![Dashboard landing](docs/images/home.png)
 
